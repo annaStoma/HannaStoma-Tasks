@@ -1,0 +1,70 @@
+/*font-family: 'Anton', sans-serif;
+*/
+body{
+	background-color: #A8A7A8;
+	color: white;
+	font-family: 'Quicksand', sans-serif;
+	text-decoration: none;
+}
+
+*{
+	color: #363636;
+	font-family: 'Quicksand', sans-serif;
+	text-decoration: none;
+	text-align: center;
+}
+
+#title, #title_link{
+	font-weight: 100;
+	text-transform: uppercase;
+	color: #E8175D;
+	font-style: italic;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	line-height: 54px;
+	text-shadow: 2px 2px 0 rgba(0,0,0,0.1);
+}
+#title_link{
+	font-size: 50px;
+}
+.nav {
+	font-family: 'Anton', sans-serif;
+	margin-top: 20px;
+}
+
+a{
+	font-style: italic;
+}
+#link{
+	color: #474747;
+}
+#link:hover{
+	color: #E8175D;
+	font-size: 18px;
+}
+
+p.text {
+	margin-left: auto;
+	margin-right: auto;
+	width: 60em;
+}
+
+a:hover{
+	color: #E8175D;
+	font-size: 18px;
+	-webkit-transition: all.6s ease;
+	-moz-transition: all.6s ease;
+	-o-transition: all.6s ease;
+	-ms-transition: all.6s ease;
+	transition: all.6s ease;
+}
+
+#title_link:hover{
+	color: #363636;
+	font-size: 55px;
+	-webkit-transition: all.6s ease;
+	-moz-transition: all.6s ease;
+	-o-transition: all.6s ease;
+	-ms-transition: all.6s ease;
+	transition: all.6s ease;
+}
