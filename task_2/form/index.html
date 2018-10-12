@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">   
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">    
+</head>
+<body>
+    <form name="Form">
+        <span>Form Action</span>   <span class="mc">_mc4wp_action</span>
+        <p>This field will allow visitors to choose whether they would like to subscribe or unsubscribe</p>
+        <p>Field Label</p>
+        <input name="Form_Action" class="action" value="Form Action">
+        <p>Choice Type</p>
+        <!--         <input name="Form_Choice" class="choice" value="Radio Buttons">-->        
+        <select class="choice">
+            <option>1</option>
+            <option>2</option>
+        </select>
+        <p>Choices</p>
+        <!-- radio -->
+        <div class="choices_block">
+            <p>
+                <label>
+                    <input class="radio" type="radio" name="radio">
+                    <span class="radio-checked"></span>               
+                    <input type="text"class="sub_Radio"  value="Subscribe">                                           
+                    <button value="Subscribe"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHoSURBVGhD7Zm9LgVBAEaXSkSoVAoq0fEIPIMoiFDRegaFgmhEoVIhEbU3oNQoRfSi8K8ghO9sTLK5udmdO7szO8Wc5ERms3szJ7uzcu9kiUTCiT65Kq/kl/xt2Wd5KqekNUQcSvMhP/KxRV+lmcubnJNWrEguepHclSHZNhPyWDKvezksK+Fx4gIiYoIn5UIytzUOlMHJrAkepxjuRCcbkpCDfFTCiOREFleMLEnmd5KPSkghgUghsZFCqhiQe3I0H7kxL/knbIO3kH3J+dfSJYaIT/ktZzhQgbcQJk+ES4yJ4NpNDljgdY24xLhEgPfF3kuMawR4DwGbmDoRECQEymLqRkCwEOgW00QEBA2BYsydbCICgocAMbeSz8MdWZdWQoqPE3auGReChxQjdmXnmnElaEi3hV1cM3VigoWUvZ2aiAkSYvOKrRvjPcQmwlAnxmtILxEG1xhvIS4RBpcYbyF8s+NLUa8RBhNzI8c4UIHXR2v6/68rxNhEgPfFHooUEhspJDasQwYlJ77no/hYlszvKB9V8CQ5me2u2NiSzG07H1XA7qmp7udAJIxLNkeZm9WG6KT8kFxwKdnuWmjRRcmdMBHn0hqKHyQXxiQRVju6RdgMXZdsPJ61KG8ofriYlYlEwoks+wNGRIw6mFtGZgAAAABJRU5ErkJggg=="></button> <br>
+                </label>
+                <label>
+                    <input class="radio" type="radio" name="radio">
+                    <span class="radio-checked"></span>               
+                    <input  type="text"class="sub_Radio" value="Unsubscribe">                                
+                    <button value="Unsubscribe"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHoSURBVGhD7Zm9LgVBAEaXSkSoVAoq0fEIPIMoiFDRegaFgmhEoVIhEbU3oNQoRfSi8K8ghO9sTLK5udmdO7szO8Wc5ERms3szJ7uzcu9kiUTCiT65Kq/kl/xt2Wd5KqekNUQcSvMhP/KxRV+lmcubnJNWrEguepHclSHZNhPyWDKvezksK+Fx4gIiYoIn5UIytzUOlMHJrAkepxjuRCcbkpCDfFTCiOREFleMLEnmd5KPSkghgUghsZFCqhiQe3I0H7kxL/knbIO3kH3J+dfSJYaIT/ktZzhQgbcQJk+ES4yJ4NpNDljgdY24xLhEgPfF3kuMawR4DwGbmDoRECQEymLqRkCwEOgW00QEBA2BYsydbCICgocAMbeSz8MdWZdWQoqPE3auGReChxQjdmXnmnElaEi3hV1cM3VigoWUvZ2aiAkSYvOKrRvjPcQmwlAnxmtILxEG1xhvIS4RBpcYbyF8s+NLUa8RBhNzI8c4UIHXR2v6/68rxNhEgPfFHooUEhspJDasQwYlJ77no/hYlszvKB9V8CQ5me2u2NiSzG07H1XA7qmp7udAJIxLNkeZm9WG6KT8kFxwKdnuWmjRRcmdMBHn0hqKHyQXxiQRVju6RdgMXZdsPJ61KG8ofriYlYlEwoks+wNGRIw6mFtGZgAAAABJRU5ErkJggg=="></button>  
+                </label>
+            </p>
+        </div>
+        <!-- Wrap in paragraph tags? -->
+        <p>
+            <input id="checkbox" type="checkbox"/>
+            <label for="checkbox">Wrap in paragraph tags?</label>
+        </p>
+        <button class="button_blue" >Add to form</button>
+    </form>
+</body>
+</html>

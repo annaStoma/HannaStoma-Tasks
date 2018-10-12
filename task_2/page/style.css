@@ -1,0 +1,130 @@
+body{
+	background-color: lightgrey;
+	margin-top: 0;
+	padding-top: 0;
+}
+div{
+	width: 1160px;
+	height: 100px;
+	background-color: #FFF;
+	border: 1px solid rgb(234,234,234);
+	border-radius: 3px;
+	color: white;
+	margin: 0 auto;	
+	margin-top: 5px;
+}
+button{
+	color: white;
+	border-radius: 5px;
+	-webkit-box-shadow: 9px 9px 5px -6px rgba(0,0,0,0.25);
+	-moz-box-shadow: 9px 9px 5px -6px rgba(0,0,0,0.25);
+	box-shadow: 9px 9px 5px -6px rgba(0,0,0,0.25);
+	font-size: 9px;
+	border: none;
+}
+
+.main{
+	width: 1195px;
+	height: 900px;
+	margin: 0 auto;
+	background-color: white;
+	border-radius: 0px;
+
+}
+.white{
+	height: 150px;
+}
+.black{
+	height: 150px;
+	background-color: #404040;
+}
+.buttons{
+	margin-left: 50px;
+	margin-top: 20px;
+	background: rgba(0,0,0,0);
+	border: none;
+}
+#pink{
+	width: 140px;
+	height: 35px;
+	font-size: 14px;
+	background: linear-gradient(to top, #FA0062,#F070BD);
+}
+#green{
+	width: 77px;
+	height: 22px;
+	background: linear-gradient(to top, #368C18,#6BE141);
+}
+#blue{
+	background: linear-gradient(to top, #1C3CA6,#7288DF);
+	width: 70px;
+	height: 22px;
+}
+#green, #blue{
+	margin-top: 10px;
+}
+#red, #orange{
+	margin-top: 10px;
+}
+#red{
+	background: linear-gradient(to top, #8F141D,#DF777E);
+	width: 70px;
+	height: 22px;
+}
+#orange{
+	background: linear-gradient(to top, #F1A132,#DFAA77);
+	width: 82px;
+	height: 21px;
+}
+#yellow{
+	background: linear-gradient(to top, #C6B30C,#F1E78E);
+	width: 82px;
+	height: 21px;
+}
+
+.buttons.blue{
+	width: 222px;
+	height: 221px;
+}
+
+.icons{ 
+ 
+	background: url(icons/summer/retina/summer.png);
+	height: 256px;
+	background-repeat: repeat;
+	/*transform: rotate(-45deg);*/
+}
+
+.icons_logo{
+	width: 376px;
+	height: 93px;
+	border-radius: 0px;
+	justify-content: center;
+	display: flex;
+	font-size: 30px;
+	color: grey;
+	background-color: white;
+	background: rgba(255,255,255,0.9);
+	border: 1px solid rgb(234,234,234);
+	/*opacity: 0.6;*/
+	margin-top: 0px;
+}
+.icons{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin: 0 auto;
+}
+p{
+	margin-top: 12px;
+	width: 346px;
+	height: 63px;
+	border: 3px solid black;
+	color: rgb(156,167,180);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Yesteryear', cursive;
+	font-size: 40px;
+}

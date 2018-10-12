@@ -1,0 +1,144 @@
+body{
+   font-family: 'Open Sans', sans-serif;
+   font-size: 15px;
+   padding: 10px;
+   height: 530px;
+   width: 500px;
+   background: white;
+   -webkit-box-shadow: 2px 3px 20px -6px rgba(0,0,0,0.75);
+   -moz-box-shadow: 2px 3px 20px -6px rgba(0,0,0,0.75);
+   box-shadow: 2px 3px 20px -6px rgba(0,0,0,0.75);  
+}
+
+p{
+    margin-bottom: 22px;
+    padding: 0;
+}
+
+input{
+    background-color: white;
+    cursor: text;
+    border: 1px solid #DFE1E2;
+}
+
+.mc{
+    background: gray;
+}
+
+.action{
+    font-size: 16px;
+    width: 500px;
+    height: 30px;
+}
+
+.choice{
+ font-size: 16px;
+ width: 500px;
+ height: 30px;
+ border-radius: 8px;
+ padding-left: 5px; 
+}
+label {
+ position: relative;
+}
+
+.choices_block{
+    width: 95%; 
+    border: 1px solid #DFE1E2;
+    border-right: 1px solid #DFE1E2;
+    box-shadow: 11px 0 0 0 #DFE1E2; 
+}
+
+img{
+    width: 15px;
+}
+
+.radio-checked,.label {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.radio{
+    cursor: pointer;
+    width: 17px; 
+}
+
+.sub_Radio{
+    border: 1px solid #DFE1E2;
+    width: 360px;
+    font-size: 16px;
+    display: inline-block;
+    margin: 3px;
+}
+
+.checkbox,.radio {
+	display: none;
+}
+.checkbox-checked,.radio-checked {
+	width: 18px;
+	height: 18px;
+ border: 1px solid #DFE1E2;
+ border-radius: 5px;
+ position: relative;
+}
+.radio:checked + .radio-checked::before,
+.checkbox:checked + .checkbox-checked::before
+{
+	content: "";
+	display: block;
+	position: absolute;
+	top: 5px;
+    bottom: 5px;
+    right: 5px;
+    left: 5px;
+    border-radius: 3px;
+    background: #216597;
+
+}
+.radio:checked + .radio-checked::before, .radio-checked 
+{
+	border-radius: 10px;
+    margin: 0.5px;
+}
+
+#checkbox {
+ position: absolute;
+}
+/*window*/
+#checkbox + label::before {
+    content: "";
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border: 1px solid #216597;
+    margin-right: 5px;
+}
+/*blue checked*/
+/*Как поднять стрелку?*/
+#checkbox:checked + label::after {
+    position: absolute;
+    border: 3px solid rgb(24,137,190);
+    border-top: none;
+    border-right: none; 
+    right: 5px;
+    left: 5px;
+    width: 9px;
+    height: 9px;
+    transform: rotate(-48deg); 
+    margin-bottom : 25px;
+    content: "";
+}
+
+button{
+    border: 0;
+    background-color: white;
+}
+
+.button_blue{
+    background: #216597;
+    color: white;
+    border-radius:3px;
+    height: 28px;
+    width: 100px;
+}
