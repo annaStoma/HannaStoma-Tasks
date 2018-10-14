@@ -1,13 +1,13 @@
 body{
-   font-family: 'Open Sans', sans-serif;
-   font-size: 15px;
-   padding: 10px;
-   height: 530px;
-   width: 500px;
-   background: white;
-   -webkit-box-shadow: 2px 3px 20px -6px rgba(0,0,0,0.75);
-   -moz-box-shadow: 2px 3px 20px -6px rgba(0,0,0,0.75);
-   box-shadow: 2px 3px 20px -6px rgba(0,0,0,0.75);  
+ font-family: 'Open Sans', sans-serif;
+ font-size: 15px;
+ padding: 10px;
+ height: 530px;
+ width: 500px;
+ background: white;
+ -webkit-box-shadow: 2px 3px 20px -6px rgba(0,0,0,0.75);
+ -moz-box-shadow: 2px 3px 20px -6px rgba(0,0,0,0.75);
+ box-shadow: 2px 3px 20px -6px rgba(0,0,0,0.75);  
 }
 
 p{
@@ -32,14 +32,14 @@ input{
 }
 
 .choice{
- font-size: 16px;
- width: 500px;
- height: 30px;
- border-radius: 8px;
- padding-left: 5px; 
+   font-size: 16px;
+   width: 500px;
+   height: 30px;
+   border-radius: 8px;
+   padding-left: 5px; 
 }
 label {
- position: relative;
+   position: relative;
 }
 
 .choices_block{
@@ -51,6 +51,25 @@ label {
 
 img{
     width: 15px;
+}
+
+.select_caret select{
+    border-radius: 2px;
+    background: transparent;
+    height: 25px;
+    padding: 5px;
+    border: 0;
+    -webkit-appearance: none;
+    width: 200px;
+}
+
+.select_caret{
+    border-radius: 6px;
+    border: 1px solid #CCC;
+    overflow: hidden; 
+    height: 25px;
+    background: url(caret-hw.jpg) no-repeat right ;
+    width: 200px;
 }
 
 .radio-checked,.label {
@@ -77,9 +96,9 @@ img{
 .checkbox-checked,.radio-checked {
 	width: 18px;
 	height: 18px;
- border: 1px solid #DFE1E2;
- border-radius: 5px;
- position: relative;
+   border: 1px solid #DFE1E2;
+   border-radius: 5px;
+   position: relative;
 }
 .radio:checked + .radio-checked::before,
 .checkbox:checked + .checkbox-checked::before
@@ -102,7 +121,7 @@ img{
 }
 
 #checkbox {
- position: absolute;
+   position: absolute;
 }
 /*window*/
 #checkbox + label::before {
