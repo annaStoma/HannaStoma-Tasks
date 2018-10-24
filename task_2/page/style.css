@@ -11,13 +11,12 @@ div{
 	color: white;
 	margin: 0 auto;	
 	margin-top: 5px;
+
 }
 button{
 	color: white;
 	border-radius: 5px;
-	-webkit-box-shadow: 9px 9px 5px -6px rgba(0,0,0,0.25);
-	-moz-box-shadow: 9px 9px 5px -6px rgba(0,0,0,0.25);
-	box-shadow: 9px 9px 5px -6px rgba(0,0,0,0.25);
+	box-shadow: 3px 3px 1px -2px rgba(0,0,0,0.4);
 	font-size: 9px;
 	border: none;
 }
@@ -30,68 +29,62 @@ button{
 	padding: 0;
 	border: none;
 }
-
 .block_white{
 	position: relative;
 	height: 150px;
-	top: -260px; 
-	z-index: 5;
+/*	top: -260px; 
+*/	z-index: 5;
 }
 .block_black{
 	position: relative;
 	height: 150px;
-	top: -260px; 
-	background-color: #404040;
+	background-color: rgb(51 51 51);
 }
-
 .block_white__button.block_black__button {
 	margin-left: 50px;
 	margin-top: 20px;
 	background: rgba(0,0,0,0);
 	border: none;
 }
-
-
 .block_white__button {
 	margin-left: 50px;
 	margin-top: 20px;
 	background: rgba(0,0,0,0);
 	border: none;
 }
-
 .block_white__button_pink{
 	width: 140px;
 	height: 35px;
 	font-size: 14px;
-	background: linear-gradient(to top, #FA0062,#F070BD);
+	background: linear-gradient(to top, rgb(237 82 170),rgb(230 33 149));
 }
 .block_white__button_green{
 	width: 77px;
 	height: 22px;
-	background: linear-gradient(to top, #368C18,#6BE141);
+	background: linear-gradient(to top, rgb(166 202 54),rgb(158 199 31));
 	margin-top: 10px;
 }
 .block_white__button_blue{
-	background: linear-gradient(to top, #1C3CA6,#7288DF);
+	background: linear-gradient(to top, rgb(93 158 233), rgb(66 143 230));
 	width: 70px;
 	height: 22px;
 	margin-top: 10px;
 }
 
 .block_white__button_red{
-	background: linear-gradient(to top, #8F141D,#DF777E);
+	background: linear-gradient(to top, rgb(235 88 89), rgb(235 64 64));
 	width: 70px;
 	height: 22px;
 	margin-top: 10px;
 }
 .block_white__button_orange{
-	background: linear-gradient(to top, #F1A132,#DFAA77);
+	background: linear-gradient(to top, rgb(255 130 59), rgb(255 112 28));
 	width: 82px;
 	height: 21px;
 	margin-top: 10px;
 }
 .block_white__button_yellow{
-	background: linear-gradient(to top, #C6B30C,#F1E78E);
+	background: linear-gradient(to top, rgb(255 198 77), rgb(255 192 47));
 	width: 82px;
 	height: 21px;
 }
@@ -114,35 +107,35 @@ button{
 	width: 140px;
 	height: 35px;
 	font-size: 14px;
-	background: linear-gradient(to top, #FA0062,#F070BD);
+	background: linear-gradient(to top, rgb(237 82 170),rgb(230 33 149));
 }
 .block_black__button_green{
 	width: 77px;
 	height: 22px;
-	background: linear-gradient(to top, #368C18,#6BE141);
+	background: linear-gradient(to top, rgb(166 202 54),rgb(158 199 31));
 	margin-top: 10px;
 }
 .block_black__button_blue{
-	background: linear-gradient(to top, #1C3CA6,#7288DF);
+	background: linear-gradient(to top, rgb(93 158 233), rgb(66 143 230));
 	width: 70px;
 	height: 22px;
 	margin-top: 10px;
 }
 
 .block_black__button_red{
-	background: linear-gradient(to top, #8F141D,#DF777E);
+	background: linear-gradient(to top, rgb(235 88 89), rgb(235 64 64));
 	width: 70px;
 	height: 22px;
 	margin-top: 10px;
 }
 .block_black__button_orange{
-	background: linear-gradient(to top, #F1A132,#DFAA77);
+	background: linear-gradient(to top, rgb(255 130 59), rgb(255 112 28));
 	width: 82px;
 	height: 21px;
 	margin-top: 10px;
 }
 .block_black__button_yellow{
-	background: linear-gradient(to top, #C6B30C,#F1E78E);
+	background: linear-gradient(to top, rgb(255 198 77), rgb(255 192 47));
 	width: 82px;
 	height: 21px;
 }
@@ -153,7 +146,14 @@ button{
 }
 /*-----------*/
 
-
+.icon_back_main{
+	width: 100%;
+	height: 256px;
+	z-index: 0;
+	margin: 0 auto;
+	padding: 0;
+	background-color: rgb(245 245 242);
+}
 .icons__logo{
 	width: 376px;
 	height: 93px;
@@ -168,16 +168,17 @@ button{
 	/*opacity: 0.6;*/
 	margin-top: 0px;
 	z-index: 2;
+	position: absolute;
+
 }
 .icons{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 100%;
 	height: 256px;
-	margin: 0 auto;
+	width: 100%;
+	margin: auto;
 	padding-top: 0;
-	overflow: hidden;
 	position: relative;
 }
 
@@ -198,16 +199,17 @@ button{
 .icon_back {
 	position: relative;
 	display: inline-block;
-	width: 84px;
-	height: 84px;
-	background-image: url("icons/sprite.png");
-	top: -275px; left: 60px; z-index: 5;
+	width: 30px;
+	height: 30px;
+	background-image: url("icons/sprite.png") ;
+	background-size: cover;
 	border-radius: 10px;
 	border: 1px solid white;
 	transform: rotate(-6deg);
-	margin-right: 50px;
+	margin-right: 10px;
+	margin-left: 10px;
 	z-index: 1;
-	margin-top:0;
+	margin-top: 15px;
 	margin-bottom: 0;
 	padding: 0;
 }
@@ -216,32 +218,32 @@ button{
 	background-position: 0 0;
 }
 .icon_back.icon_drop{
-	background-position: -84px 0;
+	background-position: -30px 0;
 }
 .icon_back.icon_p{
-	background-position: -168px 0;
+	background-position: -60px 0;
 }
 .icon_back.icon_g{
-	background-position: -252px 0;
+	background-position: -90px 0;
 }
 .icon_back.icon_in{
-	background-position: -336px 0;
+	background-position: -120px 0;
 }
 .icon_back.icon_pinterest{
-	background-position: -420px 0;
+	background-position: -150px 0;
 }
 .icon_back.icon_1{
-	background-position: -420px 0;
+	background-position: -180px 0;
 }
 .icon_back.icon_2{
-	background-position: -504px 0;
+	background-position: -210px 0;
 }
 .icon_back.icon_3{
-	background-position: -588px 0;
+	background-position: -240px 0;
 }
 .icon_back.icon_4{
-	background-position: -672px 0;
+	background-position: -270px 0;
 }
 .icon_back.icon_5{
-	background-position: -756px 0;
+	background-position: -300px 0;
 }
