@@ -1,9 +1,11 @@
 .block{
-	display: flex;
-	flex-wrap: wrap;
 	font-family: 'Nanum Gothic', sans-serif;
 	font-size: 22px;
 	/*	overflow: hidden;*/
+}
+.block-display{
+	display: flex;
+	flex-wrap: wrap;
 }
 body{
 	padding: 0;
@@ -11,7 +13,7 @@ body{
 	width: 100%;
 	box-sizing: border-box;
 }
-.block-navigation-adaptive{
+.block-display-none{
 	display: none;
 }
 /*--------------start size---------------*/
@@ -61,7 +63,6 @@ body{
 }
 
 .block-large1__title{
-	display: flex;
 	position: absolute;
 	margin-left: 175px;
 	margin-top: 35px;
@@ -71,7 +72,6 @@ body{
 	background-color: #f0e2d7;
 }
 .block-large2__navigation{
-	display: flex;
 	justify-content: center;
 	margin-top: 22px;
 	font-size: 0.8rem;
@@ -154,8 +154,6 @@ body{
 	background-size: cover;
 	background-position:  50% 0px;
 	background-repeat: no-repeat;
-	height: auto;
-	width-max: 100%; 
 }
 .block-small2__content{
 	margin-left: 50px;
@@ -177,8 +175,7 @@ body{
 /*----------skill bar-------------*/
 .skill-bar__container {
 	width: 80%;  
-	background-color: #FFF;
-	height: 2px;
+	background-color: #FFF; 
 }
 .skills {
 	text-align: right;  
@@ -218,7 +215,6 @@ body{
 	height: 90%;
 	margin-top: 0px;
 	padding-top: 0px;
-	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column; 
@@ -249,7 +245,6 @@ body{
 	height: 90%;
 	margin-top: 0px;
 	padding-top: 0px;
-	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column; 
@@ -280,7 +275,6 @@ body{
 	height: 90%;
 	margin-top: 0px;
 	padding-top: 0px;
-	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column; 
@@ -293,7 +287,6 @@ body{
 	height: 90%;
 	margin-top: 0px;
 	padding-top: 0px;
-	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column; 
@@ -322,9 +315,7 @@ body{
 .block-horizontal3__content_text{
 	font-size: 0.7rem;
 }
-.block-horizontal3__content_designer1{
-	display: flex;
-}
+
 .designer1__content-icon{
 	font-size: 1.9rem;
 	margin-top: 0;
@@ -346,16 +337,13 @@ body{
 	width: 80%;
 	padding-top: 0;
 }
-.block-horizontal3__content_designer2{
-	display: flex;
-}
+
 .designer2__content-icon{
 	font-size: 1.9rem;
 	margin-top: 0;
 	padding: 0;
 }
 .designer2__content-title{
-
 	margin-top: 10px;
 	padding-top: 0;
 }
@@ -388,12 +376,7 @@ body{
 .block-horizontal-max1__content_text{
 	font-size: 0.7rem;
 }
-.block-horizontal-max1__content-designer1{
-	display: flex;
-}
-.block-horizontal-max1__content-designer2{
-	display: flex;
-}
+
 /*------------------*/
 .block-horizontal-max2{
 	background: url(../images/education-img.jpg);
@@ -412,7 +395,6 @@ body{
 }
 .block-horizontal-full-wide__components{
 	color: #FFF;
-	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column; 
@@ -430,7 +412,6 @@ body{
 	background-color: #e9714c;
 }
 .block-middle__content{
-	display: flex;
 	flex-direction: column; 
 	margin-top: 50px;
 	margin-left: 35px;
@@ -488,7 +469,7 @@ body{
 .block-vertical2{
 	background-color:  #161616;
 	color: #FFF;
-	display: flex;
+
 	flex-direction: column; 
 }
 .block-vertical2__content{
@@ -530,7 +511,6 @@ body{
 }
 .footer__content{
 	color: rgb(150,150,152);
-	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column; 
@@ -538,9 +518,7 @@ body{
 	text-decoration: none;
 	font-size: 0.99rem;
 }
-.footer__content-icons{
-	display: inline-flex;
-}
+
 .fa-facebook,
 .fa-twitter,
 .fa-google-plus,
@@ -551,7 +529,6 @@ body{
 @media (max-width: 1140px) {
 	.block{
 		width: 100%;
-		display: flex;
 		align-items: center;
 		justify-content: center;
 		flex-direction: column; 
