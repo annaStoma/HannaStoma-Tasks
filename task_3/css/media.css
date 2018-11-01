@@ -1,0 +1,144 @@
+
+@media (max-width: 1140px) {
+	.block{
+/*		width: 100%;
+*/		align-items: center;
+justify-content: center;
+flex-direction: column; 
+}
+.block-large_size{
+	width: 100%;
+	height: 819px;
+}
+.block-horizontal_size{
+	width: 100%;
+	height: 345px;
+}
+.block-small_size{
+	width: 100%;
+	height: 345px;
+}
+.block-horizontal-max_size{
+	width: 100%;
+	height: 350px;
+}
+.block-horizontal-full-wide_size{
+	width: 100%;
+	height: 340px;
+	background-color: black;
+}
+.block-middle_size{
+	width: 100%;
+	height: 611px;
+}
+.block-vertical_size{
+	width: 100%;
+	height: 611px;
+	position: relative;
+}
+
+.footer_size{
+	width: 100%;
+	height: 380px;
+}
+.content__text{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.content__text{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+}
+@media only screen and (min-device-width : 240px) and (max-device-width : 480px) 
+{
+	.block{
+		font-size: 3.5vw;
+		box-sizing: border-box;
+	}
+	.block-middle__button-send{
+		width: 60%;
+		font-size: 3.5vw;
+	}
+
+	.designer1__content_title,
+	.designer2__content_title{
+		font-size: 3.5vw;
+	}
+	.designer1__content_text,
+	.designer2__content_text{
+		margin-top: -1.2rem;
+	}
+	.block-large1__title{
+		margin-left: 1rem;
+	}
+	.block-large2__navigation{
+		display: none;
+	}
+	.block-large2__welcome-text{
+		margin-top: 1.2rem;
+	}
+	.display{
+		text-shadow: 0.5px 0.5px 0 #FFF;
+	}
+	.block-navigation-adaptive{
+		background-color: #f0e2d7;
+		width: 100%;
+		position: sticky;
+		top: 0px;
+		display: flex;
+		font-size: 0.8rem;
+		text-decoration: none;
+		text-transform: uppercase;
+		z-index: 1;
+	}
+	.block-large1{
+		margin-top: -4rem;
+	}
+	.block-large1__title{
+		margin-top: 100px;
+		z-index: 0;
+	}
+	.block-large2{
+		height: auto;
+		padding-bottom: 1rem;
+	}
+	.block-vertical2{
+		padding-bottom: 1rem;
+	}
+	.block-vertical2__content{
+		margin-top: 0.5rem;
+	}
+	.footer{
+		padding-bottom: 0.9rem;
+	}
+	.footer__content{
+		font-size: 0.9rem;
+		padding-left: 20px;
+	}
+	.block-large1__title{
+		width: 50%;
+		display: flex;
+		align-items: flex-end;
+		justify-content: flex-end;
+		font-size: 1.2rem;
+	}
+	.block-horizontal-full-wide{
+		padding-bottom: 10px;
+	}
+	.block-horizontal-full-wide__components-title{
+		width: 80%;
+	}
+
+}
+@media (max-width: 550px) {
+	.block-horizontal-full-wide__components-text,
+	.block-horizontal-full-wide__components-title{
+		font-size: 0.9rem;
+	}
+}
+
+}
+

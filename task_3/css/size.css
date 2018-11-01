@@ -1,0 +1,36 @@
+/*--------------start size---------------*/
+.block-large_size{
+	width: 50%;
+	height: 819px;
+}
+.block-horizontal_size{
+	width: 50%;
+	height: 345px;
+}
+.block-small_size{
+	width: 25%;
+	height: 345px;
+}
+.block-horizontal-max_size{
+	width: 50%;
+	height: 350px;
+}
+.block-horizontal-full-wide_size{
+	width: 100%;
+	height: 340px;
+}
+.block-middle_size{
+	width: 50%;
+	height: 611px;
+}
+.block-vertical_size{
+	width: 25%;
+	height: 611px;
+	position: relative;
+}
+
+.footer_size{
+	width: 100%;
+	height: 380px;
+}
+/*-------------end size---------------*/

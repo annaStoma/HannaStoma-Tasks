@@ -1,0 +1,10 @@
+
+.block-vertical1{
+	background: url(../images/contact-img.jpg);
+	background-size: cover;
+	background-position:  50% 0px;
+	background-repeat: no-repeat;
+/*	height: auto;
+*//*	width-max: 100%; 
+*/	z-index: -1;
+}

@@ -1,0 +1,22 @@
+
+.block-horizontal1__content{
+	margin-left: 35px;
+	font-size: 0.9rem;
+}
+.block-horizontal1{
+	background-color: #FFF;
+}
+.block-horizontal1__title{
+	margin-top: 55px;
+	font-size: 2rem;
+}
+.block-horizontal1__short-text{
+	margin-top: 35px;
+	width: 80%;
+	color: #e4ae58; 
+}
+.block-horizontal1__text{
+	margin-top: 35px;
+	width: 80%;
+	color: grey; 
+}

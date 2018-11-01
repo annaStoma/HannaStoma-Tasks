@@ -1,0 +1,31 @@
+
+.block-small4{
+	background-color: #e9714c;
+	color: #FFF;
+}
+.block-small4__content{
+	height: 90%;
+	margin-top: 0px;
+	padding-top: 0px;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column; 
+}
+.content__icon{
+	font-size: 3rem;
+	margin: 0;
+	padding: 0;
+}
+.content__title{
+	font-size: 1.1rem;
+	margin-top: 15px;
+	padding: 0;
+	margin-bottom: 0;
+}
+.content__text{
+	font-size: 0.7rem;
+	margin-top: 25px;
+	padding: 0;
+	margin-bottom: 0;
+	width: 86%;
+}

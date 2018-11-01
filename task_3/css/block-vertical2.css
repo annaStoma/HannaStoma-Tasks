@@ -1,0 +1,41 @@
+
+.block-vertical2{
+	background-color:  #161616;
+	color: #FFF;
+
+	flex-direction: column; 
+}
+.block-vertical2__content{
+	margin-top: 55px;
+	margin-left: 50px;
+}
+.block-vertical2__content-adress{
+	color: grey;
+	font-size: 0.9rem;
+}
+.content__contacts{
+	font-size: 0.9rem;
+}
+.contacts__phone{
+	color: rgb(130,138,140);
+}
+.fa-envelope-o{
+	color: rgb(130,138,140);
+}
+.fa-globe{
+	color: rgb(130,138,140);
+}
+.contacts__mail{
+	text-decoration: none;
+	color: #e4ae58;
+}
+.contacts__mail:hover{
+	color: #28292d;
+}
+.contacts__site{
+	text-decoration: none;
+	color: #e4ae58;
+}
+.contacts__site:hover{
+	color: #28292d;
+}

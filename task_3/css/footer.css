@@ -1,0 +1,21 @@
+
+.footer{
+	background-color: #FFF;
+}
+.footer__content{
+	color: rgb(150,150,152);
+	align-items: center;
+	justify-content: center;
+	flex-direction: column; 
+	height: 100%;
+	text-decoration: none;
+	font-size: 0.99rem;
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-google-plus,
+.fa-dribbble,
+.fa-linkedin{
+	color: rgb(150,150,152);
+}

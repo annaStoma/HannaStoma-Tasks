@@ -1,0 +1,53 @@
+
+.block-small2__content{
+	margin-left: 50px;
+}
+.block-small2{
+	background-color: #e4ae58;
+}
+
+.block-small2__title{
+	margin-top: 55px;
+	color: #FFF;
+	font-size: 2rem;
+}
+.block-small2__skills{
+	margin-top: 20px;
+	color: #FFF;
+	font-size: 0.9rem;
+}
+/*----------skill bar-------------*/
+.skill-bar__container {
+	width: 80%;  
+	background-color: #FFF; 
+}
+.skills {
+	text-align: right;  
+	color: #FFF;  
+	height: 2px;
+}
+.frontend-desigh {
+	width: 90%;
+	background-color: #161616;
+} 
+.backend-processing {
+	width: 70%;
+	background-color: #161616;
+} 
+.HTML5-CSS3 {
+	width: 80%; 
+	background-color: #161616;
+} 
+.skill-bar__text{
+	margin-bottom: 11;
+	font-size: 0.8rem;
+	display: inline-block;
+}
+.skill-bar__percent{
+	display: inline-block;
+	color: #FFF;
+	font-size: 0.8rem;
+	float: right;
+	padding-right: 4rem;
+}
+/*-----------skill bar end-------------*/

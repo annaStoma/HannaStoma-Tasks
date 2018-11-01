@@ -1,0 +1,18 @@
+.block{
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size: 22px;
+	/*	overflow: hidden;*/
+}
+.block-display{
+	display: flex;
+	flex-wrap: wrap;
+}
+body{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	box-sizing: border-box;
+}
+.block-display-none{
+	display: none;
+}

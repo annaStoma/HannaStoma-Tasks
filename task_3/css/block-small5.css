@@ -1,0 +1,13 @@
+
+.block-small5{
+	background-color: #28292d;
+	color: #FFF;
+}
+.block-small5__content{
+	height: 90%;
+	margin-top: 0px;
+	padding-top: 0px;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column; 
+}

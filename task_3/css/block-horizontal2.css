@@ -1,0 +1,9 @@
+
+.block-horizontal2{
+	background: url(../images/experience-img.jpg);
+	background-size: cover;
+	background-position:  50% 0px;
+	background-repeat: no-repeat;
+	height: auto;
+	width-max: 100%; 
+}

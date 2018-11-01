@@ -11,8 +11,10 @@ function task1(n) {
                 i++;
         }
         summ++;
+        return summ; 
     }
     console.log("The number of prime numbers from 1 to " + n + " is " + summ);
+    return;
 }
 task1(100);
 console.log('task 2 ---------------------');

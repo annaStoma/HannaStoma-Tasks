@@ -1,0 +1,18 @@
+
+.block-horizontal-max1{
+	background-color: #e4ae58 ;
+}
+/*-------------------*/
+.block-horizontal-max1__content{
+	margin-left: 60px;
+	margin-top: 30px; 
+	color: #FFF;
+}
+.block-horizontal-max1__content_title{
+	font-size: 1.5rem;
+	margin: 0;
+	padding: 0;
+}
+.block-horizontal-max1__content_text{
+	font-size: 0.7rem;
+}
