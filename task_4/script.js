@@ -10,8 +10,7 @@ function task1(n) {
             if (i % m == 0)
                 i++;
         }
-        summ++;
-        return summ; 
+        summ++; 
     }
     console.log("The number of prime numbers from 1 to " + n + " is " + summ);
     return;
@@ -33,8 +32,10 @@ function task2(n) {
         count++;
         console.log(count + " : " + i);
     }
+    return;
 }
 task2(20);
+
 console.log('task 3 ---------------------');
 //Найти сумму первых n четных чисел фибоначчи. 
 //Числа фибоначчи - первые два числа равны 1 и 1,
@@ -52,8 +53,10 @@ function task3(d) {
     }
     console.log('Первые ' + d + ' чисел фибоначи: ' + myArr);
     console.log('Сумма четных из них = ' + summ);
+    return;
 }
 task3(8);
+
 console.log('task 4 ---------------------');
 // Серия чисел, 1^1 + 2^2 + 3^3 + ... + 10^10 = 10405071317 
 // (^ - степень числа). Найдите 10 последних цифр
@@ -70,8 +73,10 @@ function task4(n) {
     var s = '' + summ;
     var stroka = s.substring(s.length - 10);
     console.log('10 последних цифр суммы: ' + stroka);
+    return;
 }
 task4(15);
+
 console.log('task 5 ---------------------');
 
 function task5() {
@@ -83,8 +88,10 @@ function task5() {
     }
     var result = summ / arguments.length;
     console.log('Среднее арифметическое:' + result);
+    return;
 }
 task5(1, 2, 3, 4, 5);
+
 console.log('task 6 ---------------------');
 // Найти максимальное число в массиве.
 // [1, 2, 3, 4, 5]
@@ -101,8 +108,10 @@ function task6() {
     }
 
     console.log('Максимальное:' + arguments[0]);
+    return;
 }
 task6(1, 2, 3, 4, 5);
+
 console.log('task 7 ---------------------');
 // Найдите все уникальные строки в массиве.
 // [1, 'word', 1, 'word', 'word', 'word1']
@@ -114,8 +123,10 @@ function task7() {
             myArray.push(arguments[i]);
     }
     console.log(myArray);
+    return;
 }
 task7(1, 'word', 1, 'word', 'word', 'word1');
+
 console.log('task 8 ---------------------');
 // Определить, является ли фраза/слово палиндромом
 // ДОХОД
@@ -125,8 +136,10 @@ function task8(word) {
     var wsr = wordSplit.reverse().join('');
     //alert( str.split('') ); // т,е,с,т
     console.log(word == wsr);
+    return word;
 }
 task8('доход');
+
 console.log('task 9 ---------------------');
 // Найти сумму цифр данного числа
 // "564674474"
@@ -138,5 +151,6 @@ function task9(n) {
         summ += Number(stroka[i]);
     }
     console.log(summ);
+    return;
 }
 task9(564674474);
