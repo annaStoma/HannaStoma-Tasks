@@ -2,7 +2,6 @@
 .block-vertical2{
 	background-color:  #161616;
 	color: #FFF;
-
 	flex-direction: column; 
 }
 .block-vertical2__content{
