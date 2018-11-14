@@ -1,4 +1,4 @@
-var Animals = function(name, age){
+var Animal = function(name, age){
 	this.name = name;
 	this.age = age;
 
@@ -7,7 +7,7 @@ var Animals = function(name, age){
 	}
 };
 var Fish = function(name, age){
-	Animals.apply(this, arguments);
+	Animal.apply(this, arguments);
 }
 
 var Fox = new Animals("Fox", 3);
