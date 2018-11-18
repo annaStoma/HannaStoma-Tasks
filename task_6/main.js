@@ -1,0 +1,11 @@
+var date = new Date();
+this.dayOfWeek = date.getDay();
+this.day = date.getDay();
+this.month = date.getMonth();
+this.year = date.getFullYear();
+var listOfMonth = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+var daysOfMonth = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+var weekDays = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat '];
+var calendarBlock = document.createElement("div");
+var monthNameBlock = document.createElement("div");
+document.body.appendChild(calendarBlock);
