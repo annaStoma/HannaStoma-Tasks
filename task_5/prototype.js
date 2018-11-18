@@ -11,7 +11,7 @@ function Fox(name,age,home){
 	this.name = name;
 	this.age = age;
 	this.home = home;
-}:
+};
    
 Fox.prototype = Object.create(Animal.prototype);
 Fox.prototype.constructor = Fox;
