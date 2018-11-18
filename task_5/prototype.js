@@ -1,18 +1,21 @@
-var Animal = function (name,age,home){
+function Animal(name,age,home){
 	this.name = name;
 	this.age = age;
 	this.home = home;
 };
 Animal.prototype.addHome = function(){
-	console.log('Lives at/in the ',this.home);
-};
-var fox = new Animal("Alex",12,"Forest");
-console.log(fox);
-
-var Fish = function(){
-	Animal.apply(this, arguments)
+	console.log( this.name + 'Lives at/in the ' + this.home);
 };
 
-var Jellyfish = new Fish("Sam",13,"Ocean");
-console.log(Jellyfish);
+function Fox(name,age,home){
+	this.name = name;
+	this.age = age;
+	this.home = home;
+};
 
+Fox.prototype = Object.create(Animal.prototype);
+Fox.prototype.constructor = Fox;
+
+Fox.prototype.color = function() {
+	console.log( this.name + ' age is ' + this.age);
+}
