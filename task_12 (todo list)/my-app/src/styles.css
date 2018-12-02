@@ -1,0 +1,35 @@
+.main{
+ 	font-size: 20px;
+ 	height: 100%;
+}
+p{
+	color: #F16A43;
+}
+
+input{
+	outline: none;
+	width: 200px;
+	height: 25px;
+	color:#F16A43;
+}
+button{
+	border: none;
+	border-radius: 10px;
+	background-color: #F9D423;
+	color: white;
+	outline: none;
+	height: 20px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+ .addItem{
+ 	height: 25px;
+ 	  	display: inline-flex;
+ 	align-items: center;
+ }
+ p{
+ 	display: inline-flex;
+ 	align-items: center;
+ 	margin: 5px;
+ }
+ 
