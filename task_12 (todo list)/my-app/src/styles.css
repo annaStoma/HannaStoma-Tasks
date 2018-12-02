@@ -1,6 +1,6 @@
 .main{
- 	font-size: 20px;
- 	height: 100%;
+	font-size: 20px;
+	height: 100%;
 }
 p{
 	color: #F16A43;
@@ -22,14 +22,13 @@ button{
 	margin-right: 10px;
 	margin-left: 10px;
 }
- .addItem{
- 	height: 25px;
- 	  	display: inline-flex;
- 	align-items: center;
- }
- p{
- 	display: inline-flex;
- 	align-items: center;
- 	margin: 5px;
- }
- 
+.addItem{
+	height: 25px;
+	display: inline-flex;
+	align-items: center;
+}
+p{
+	display: inline-flex;
+	align-items: center;
+	margin: 5px;
+}

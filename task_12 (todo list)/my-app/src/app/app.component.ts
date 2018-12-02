@@ -14,7 +14,6 @@ export class AppComponent {
 
 	add(value: String){
 		this.list.push(value);
-		value = " ";
 	}
 
 	del(i: number){
